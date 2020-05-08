@@ -1,0 +1,15 @@
+Guessing game in C
+
+Ai tic tac toe in C
+
+Dbms - to-late , hand to hand , cg counter 
+
+Software - Leave manangement system 
+
+Electronics - Autamatioc door system 
+
+Microprocessor -  Drone Car controller 
+
+java - game- rock paper sizer , Text to spech 
+
+cloud - aws project uploded software project 
