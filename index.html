@@ -1,0 +1,33 @@
+<document.!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome UIU</title>
+</head>
+<body>
+
+  <div id="myDiv" style="width:200px;height:150px;background-color:blue;">
+  This is the div that will fade out, slide up, then be removed from the DOM.
+  </div>
+  <button id="myButton" onclick="myFunc()" >tgl button</button>
+
+<script type="text/javascript">
+
+	myFunc(){
+		document.getElementById('myDiv').fadeTo("slow").remove();
+		document.getElementById('myButton').slideUp("slow");
+	}
+
+// 	$(function() {
+//      $("#myButton").click(function() {
+//          $("#myDiv").fadeTo("slow", 0.00, function(){
+//              $(this).slideUp("slow", function() {
+//                  $(this).remove();
+//              });
+//          });
+
+//      });
+// });
+</script>
+
+</body>
+</html>
